@@ -9,13 +9,27 @@
     background-color: #38bdf8;
 }
 
+.dash{
+    margin-left:30px;
+    margin-top: 30px;
+}
+
+.dash path{fill:white;}
+.home path{fill:white;}
+
+.home{
+    margin-left:30px;
+}
+
 .top_bar{
     height: 130px;
     width: 1050px;
-    background-color: white;
+    background-color: white; 
     margin-left: 250px;
 
 }
+
+/* <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"/> */
 
 .bottom{
     display:grid;
@@ -25,14 +39,16 @@
     margin-left:300px;
     margin-top:80px;
     grid-template-columns: 50px 50px;
+    /* column-gap:2px; */
 }
 
 .inside{
     display:grid;
+    position: absolute;
     height: 400px;
     width: 610px;
-    background-color: pink;
-    margin-left: 10px;
+    background-color: #e5e7eb;
+    margin-left: 15px;
     margin-top:45px;
     grid-template-columns: 50px 50px;
     grid-template-rows: 50px 50px 50px;
@@ -92,9 +108,10 @@
 
 .side{
     display:grid;
+    position: relative;
     height: 400px;
     width: 380px;
-    background-color: green;
+    background-color: #e5e7eb;
     margin-left: 600px;
     margin-top:45px;
     grid-template-rows: 50px 50px;
