@@ -14,9 +14,6 @@
     margin-top: 30px;
 }
 
-.dash path{fill:white;}
-.home path{fill:white;}
-
 .home{
     margin-left:30px;
 }
@@ -27,6 +24,17 @@
     background-color: white; 
     margin-left: 250px;
 
+}
+
+.b1{
+    margin-top:80px;
+    height:30px;
+    width:100px;
+    margin-left: 60px;
+    background-color: #38bdf8;
+    border-color: #38bdf8;
+    border-radius: 17px;
+    border-style: solid;
 }
 
 /* <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"/> */
@@ -125,6 +133,17 @@
     border-radius: 5px;
 
 }
+.b2{
+    margin-top:100px;
+    height:30px;
+    width:100px;
+    margin-left: 130px;
+    background-color: #38bdf8;
+    border-color: #38bdf8;
+    border-radius: 17px;
+    border-style: solid;
+}
+
 
 .item8{
     height:180px;
